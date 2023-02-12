@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test,Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:45,1m - 29.000s,PASSED
+,,,,,,,
+Test Cases/Kompas project/TC001 - Login sucess,Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,21.249s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,2.162s,PASSED
+"navigateToUrl(""https://www.kompas.id/"")",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,3.591s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,0.137s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/button_Nanti saja""))",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,2.439s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/button_tutup_iklan""))",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,0.944s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/Menu_login""))",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,1.345s,PASSED
+"setText(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/input_email""), ""om.qa.automation@gmail.com"")",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,2.714s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/button_lanjutkan""))",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,0.463s,PASSED
+"setEncryptedText(findTestObject(""kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/input_password""), ""ByEIyy8mvbIT7bxYFOPYfw=="")",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,1.310s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/button_masuk""))",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,0.706s,PASSED
+takeScreenshot(),Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,4.452s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,0.720s,PASSED
+,,,,,,,
+Test Cases/Kompas project/TC002 - Email invalid,Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:45,15.898s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,1.192s,PASSED
+"navigateToUrl(""https://www.kompas.id/"")",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,3.238s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,0.234s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/button_Nanti saja""))",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,3.416s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/button_tutup_iklan""))",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,0.500s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/Menu_login""))",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,1.275s,PASSED
+"setText(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/input_email""), ""check@mail,com"")",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,3.840s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/button_lanjutkan""))",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,0.459s,PASSED
+"verifyElementText(findTestObject(""kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/span_Masukkan format email yang benar dan valid""), ""Masukkan format email yang benar dan valid."")",Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:44,0.488s,PASSED
+takeScreenshot(),Chrome 109.0.0.0,,,2/8/2023 20:44,2/8/2023 20:45,0.392s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.635s,PASSED
+,,,,,,,
+Test Cases/Kompas project/TC003 - Email null,Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,16.631s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,1.225s,PASSED
+"navigateToUrl(""https://www.kompas.id/"")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,5.434s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.148s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/button_Nanti saja""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,3.522s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/button_tutup_iklan""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.579s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/Menu_login""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,1.395s,PASSED
+"setText(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/input_email""), """")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,2.275s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/button_lanjutkan""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.344s,PASSED
+"verifyElementText(findTestObject(""kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/span_Masukan email atau nomor ponsel yang valid""), ""Masukan email atau nomor ponsel yang valid."")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.540s,PASSED
+takeScreenshot(),Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.323s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.654s,PASSED
+,,,,,,,
+Test Cases/Kompas project/TC004 - Email valid Password null,Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,16.753s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,1.224s,PASSED
+"navigateToUrl(""https://www.kompas.id/"")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,2.870s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.163s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/button_Nanti saja""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,4.398s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/button_tutup_iklan""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.452s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/Menu_login""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,1.292s,PASSED
+"setText(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/input_email""), ""om.qa.automation@gmail.com"")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,2.434s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/button_lanjutkan""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.550s,PASSED
+"setEncryptedText(findTestObject(""kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/input_password""), """")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,1.243s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/button_masuk""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.366s,PASSED
+"verifyElementText(findTestObject(""kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/span_Kata sandi harus diisi""), ""Kata sandi harus diisi."")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.459s,PASSED
+takeScreenshot(),Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.460s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.647s,PASSED
+,,,,,,,
+Test Cases/Kompas project/TC005 - Email valid Password invalid,Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,18.186s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,1.244s,PASSED
+"navigateToUrl(""https://www.kompas.id/"")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,3.690s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.186s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/button_Nanti saja""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,3.212s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/button_tutup_iklan""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.468s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Kompas.id/Menu_login""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,1.464s,PASSED
+"setText(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/input_email""), ""om.qa.automation@gmail.com"")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,3.297s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/button_lanjutkan""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.496s,PASSED
+"setEncryptedText(findTestObject(""kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/input_password""), ""vOA0cDqQbrEspEMv59VzcQ=="")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,1.226s,PASSED
+"click(findTestObject(""Object Repository/kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/button_masuk""))",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.671s,PASSED
+"verifyElementText(findTestObject(""kompas/Page_Halaman Masuk Akun Kompas.id - Harian Kompas/span_Kata sandi Anda salah""), ""Kata sandi Anda salah."")",Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.784s,PASSED
+takeScreenshot(),Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.579s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2/8/2023 20:45,2/8/2023 20:45,0.682s,PASSED
